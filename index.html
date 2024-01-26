@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta> <link rel="stylesheet" href="styles.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img src="./assets/Frame 6.png" alt="Logo da alura">
+    </header>
+    <main class="conteudo">
+        <div class="tela" >
+            <div class="area_texto" >
+                <textarea class="area_texto_input" name="texto" id="input" cols="30" rows="10" placeholder="DIGITE SEU TEXTO"></textarea>
+            </div>
+            <p class="atencao">Utilize apenas palavras minusculas sem acento</p>
+            <div class="botoes">
+                <button class="encriptar" onclick="cripografar()">criptografar</button>
+                <button class="desencriptar" onclick="descriptografar()" >descriptografar</button>
+            </div>
+        </div>
+        <div class="txtdireita">
+            <p id="output" class="area_texto_output"></p>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="java.js" defer></script>
+</body>
+</html>
