@@ -34,7 +34,7 @@ body{
     min-height: 85%;
     width: 100%;
     border: none;
-    background-color: #182656;
+    background-color: #F3F5FC;
     resize: none;
     font-size: 32px;
     border-radius: 32px;
@@ -92,6 +92,7 @@ body{
     .area__esquerda {
         width: 100%;
         height: auto;
+
     }
     
     .txtdireita {
